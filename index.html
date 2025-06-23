@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Nusantara</title>
+    <meta name="title" content="Kedai Nusantara" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Kedai Nusantara</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span"> Jl. Nangka RT 01 RW 11 Kepuharjo, Lumajang, Jawa Timur </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Buka Setiap Hari: 07.30 - 22.00 WIB</span>
+        </div>
+
+        <a href="#" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+62-8123-4567</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="#" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">kedainusantara@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo kedai nusantara.png" width="160" height="50" alt="Grilli - Home" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo kedai nusantara.png" width="160" height="50" alt="Kedai Nusantara" />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Beranda</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Tentang Kami</span>
+              </a>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Our Chefs</span>
+              </a>
+            </li> -->
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Kunjungi Kami</p>
+
+            <address class="body-4">
+              Jl. Nangka RT 01 RW 11 Kepuharjo, <br />
+              Lumajang, Jawa Timur
+            </address>
+
+            <p class="body-4 navbar-text">Buka Setiap Hari: 07.30 - 22.00 WIB</p>
+
+            <a href="#" class="body-4 sidebar-link">kedainusantara@gmail.com</a>
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Permintaan Pemesanan</p>
+
+            <a href="#" class="body-1 contact-number hover-underline"> +62-8123-4567 </a>
+          </div>
+        </nav>
+
+        <a href="#contact" class="btn btn-secondary">
+          <span class="text text-1">Reservasi</span>
+
+          <span class="text text-2" aria-hidden="true">Find A Table</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover" />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Tradisional & Higienis</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Dibuat dengan Cinta <br />
+                pada Setiap Rasa
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Datanglah bersama keluarga & rasakan nikmatnya hidangan lezat</p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Daftar Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Daftar Menu</span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover" />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Kelezatan dalam Setiap Momen</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Sajian khas <br />
+                kuliner Indonesia
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Kumpul bersama keluarga & nikmati hidangan yang menggugah selera</p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Daftar Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Daftar Menu</span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover" />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Kelezatan yang Menggugah Selera</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Setiap cita rasa <br />
+                membawa kisahnya sendiri
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">Ajak keluarga dan rasakan kebahagiaan menyantap hidangan lezat</p>
+
+              <a href="#menu" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Lihat Daftar Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Daftar Menu</span>
+              </a>
+            </li>
+          </ul>
+
+          <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service bg-black-10 text-center" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+            <h2 class="headline-1 section-title">
+              Hidangan istimewa, <br />
+              rasa tiada duanya.
+            </h2>
+
+            <p class="section-text">Temukan kenikmatan dalam setiap hidangan.</p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                      <img src="./assets/images/menu sarapan.jpg" width="285" height="336" loading="lazy" alt="Breakfast" class="img-cover" />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Menu Sarapan</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2">Lihat Menu</a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                      <img src="./assets/images/kue lapis.jpg" width="285" height="336" loading="lazy" alt="Appetizers" class="img-cover" />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Mini Dishes</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2">Lihat Menu</a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                      <img src="./assets/images/minuman.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover" />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Minuman</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2">Lihat Menu</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim" />
+            <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim" />
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about text-center" aria-labelledby="about-label" id="about">
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">Tentang Kami</p>
+
+              <h2 class="headline-1 section-title">
+                Setiap Rasa <br />
+                Punya Cerita
+              </h2>
+
+              <p class="section-text">
+                Di Kedai Nusantara, setiap hidangan diracik bukan hanya untuk memanjakan lidah, tapi juga untuk membangkitkan kenangan. Dari bumbu warisan nenek hingga cita rasa khas daerah, kami percaya bahwa setiap rasa menyimpan cerita
+                yang layak untuk dinikmati bersama orang tercinta.
+              </p>
+
+              <div class="contact-label">Pesan Lewat Telepon</div>
+
+              <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+62 8123 4567</a>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Selengkapnya</span>
+
+                <span class="text text-2" aria-hidden="true">Selengkapnya</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1" />
+
+              <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="" class="w-100" />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="" />
+              </div>
+            </figure>
+
+            <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape" />
+          </div>
+        </section>
+
+        <!-- 
+        - #SPECIAL DISH
+      -->
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish" class="img-cover" />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img" />
+
+              <p class="section-subtitle label-2">Menu Terbaru</p>
+
+              <h2 class="headline-1 section-title">Soto Banjar</h2>
+
+              <p class="section-text">
+                Nikmati kehangatan kuah bening khas Kalimantan Selatan dengan cita rasa rempah yang lembut dan aroma khas. Dihidangkan dengan potongan ayam, perkedel, dan telur rebus — sempurna untuk santapan istimewa Anda.
+              </p>
+
+              <div class="wrapper">
+                <del class="del body-3">Rp25.000</del>
+
+                <span class="span body-1">Rp15.000</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Lihat Semua Menu</span>
+
+                <span class="text text-2" aria-hidden="true">Lihat Semua Menu</span>
+              </a>
+            </div>
+          </div>
+
+          <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1" />
+
+          <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2" />
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Pilihan Special</p>
+
+            <h2 class="headline-1 section-title text-center">Menu Terlaris</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-1.jpg" width="100" height="100" loading="lazy" alt="Greek Salad" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Seblak Kuah Ceker</a>
+                      </h3>
+
+                      <span class="span title-2">Rp20.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Seblak pedas berkuah khas Bandung dengan campuran kerupuk, mie, bakso, dan ceker ayam lembut. Rasanya gurih, pedas, dan bikin nagih!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-3.jpg" width="100" height="100" loading="lazy" alt="Lasagne" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Nasi Liwet Solo</a>
+                      </h3>
+
+                      <span class="span title-2">Rp15.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Nasi gurih dengan suwiran ayam, telur pindang, labu siam, sambal goreng, dan kerupuk — lengkap dalam satu piring.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-2.jpg" width="100" height="100" loading="lazy" alt="Butternut Pumpkin" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Rendang Daging Minang</a>
+                      </h3>
+
+                      <span class="span title-2">Rp40.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Olahan daging sapi empuk dengan bumbu rempah khas Padang yang dimasak berjam-jam hingga meresap sempurna — masuk daftar makanan terenak dunia!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-4.jpg" width="100" height="100" loading="lazy" alt="Tokusen Wagyu" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Pecel Madiun</a>
+                      </h3>
+
+                      <span class="span title-2">Rp10.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Aneka sayuran segar disiram sambal kacang khas Madiun yang manis-pedas. Disajikan dengan rempeyek gurih sebagai pelengkap.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-5.jpg" width="100" height="100" loading="lazy" alt="Olivas Rellenas" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Soto Lamongan</a>
+                      </h3>
+
+                      <span class="span title-2">Rp12.000</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Sajian khas Jawa Timur dengan kuah kuning gurih dari kunyit dan kaldu ayam. Disajikan bersama suwiran ayam, telur rebus, soun, kol, dan taburan koya gurih yang jadi ciri khas utamanya. Cocok dinikmati kapan saja!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100">
+                    <img src="./assets/images/menu-6.jpg" width="100" height="100" loading="lazy" alt="Opu Fish" class="img-cover" />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lontong Sayur Medan</a>
+                      </h3>
+
+                      <span class="span title-2">Rp25.000</span>
+                    </div>
+
+                    <p class="card-text label-1">Lontong padat dengan kuah santan gurih, ditambah tauco, udang, telur balado, dan kerupuk merah — kaya rasa dan mengenyangkan.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Lihat Semua Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Lihat Semua Menu</span>
+            </a>
+
+            <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim" />
+            <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim" />
+          </div>
+        </section>
+
+        <!-- 
+  - #RESERVATION
+-->
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Reservasi Online</h2>
+
+                <p class="form-text text-center">
+                  Permintaan pemesanan <a href="tel:+6281234567" class="link">+62-8123-4567</a>
+                  atau isi formulir pesanan
+                </p>
+
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Nama Anda" autocomplete="off" class="input-field" />
+                  <input type="tel" name="phone" placeholder="Nomor Telepon" autocomplete="off" class="input-field" />
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    <select name="person" class="input-field">
+                      <option value="1-person">1 Orang</option>
+                      <option value="2-person">2 Orang</option>
+                      <option value="3-person">3 Orang</option>
+                      <option value="4-person">4 Orang</option>
+                      <option value="5-person">5 Orang</option>
+                      <option value="6-person">6 Orang</option>
+                      <option value="7-person">7 Orang</option>
+                    </select>
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                    <input type="date" name="reservation-date" class="input-field" />
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <select name="time" class="input-field">
+                      <option value="08:00">08.00 pagi</option>
+                      <option value="09:00">09.00 pagi</option>
+                      <option value="10:00">10.00 pagi</option>
+                      <option value="11:00">11.00 pagi</option>
+                      <option value="12:00">12.00 siang</option>
+                      <option value="13:00">13.00 siang</option>
+                      <option value="14:00">14.00 siang</option>
+                      <option value="15:00">15.00 sore</option>
+                      <option value="16:00">16.00 sore</option>
+                      <option value="17:00">17.00 sore</option>
+                      <option value="18:00">18.00 malam</option>
+                      <option value="19:00">19.00 malam</option>
+                      <option value="20:00">20.00 malam</option>
+                      <option value="21:00">21.00 malam</option>
+                      <option value="22:00">22.00 malam</option>
+                    </select>
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+
+                <textarea name="message" placeholder="Pesan" autocomplete="off" class="input-field"></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Pesan Meja</span>
+                  <span class="text text-2" aria-hidden="true">Pesan Meja</span>
+                </button>
+              </form>
+
+              <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')" id="contact">
+                <h2 class="headline-1 text-center">Hubungi Kami</h2>
+
+                <p class="contact-label">Permintaan Pemesanan</p>
+
+                <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+62-812-34567</a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Lokasi</p>
+
+                <address class="body-4">
+                  Jl. Nangka RT 01 RW 11, Kepuharjo <br />
+                  Lumajang, Jawa Timur
+                </address>
+
+                <p class="contact-label">Jam Makan Siang</p>
+
+                <p class="body-4">
+                  Senin - Minggu <br />
+                  11.00 - 14.30 WIB
+                </p>
+
+                <p class="contact-label">Jam Makan Malam</p>
+
+                <p class="body-4">
+                  Senin - Minggu <br />
+                  17.00 - 22.00 WIB
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Apa yang Kami Tawarkan</p>
+
+            <h2 class="headline-1 section-title">Keunggulan Kami</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon" />
+                  </div>
+
+                  <h3 class="title-2 card-title">Makanan Higienis</h3>
+
+                  <p class="label-1 card-text">Makanan kami disiapkan dengan standar kebersihan tinggi demi menjaga kualitas dan kesehatan Anda.</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon" />
+                  </div>
+
+                  <h3 class="title-2 card-title">Lingkungan yang Segar</h3>
+
+                  <p class="label-1 card-text">Nikmati suasana yang bersih, nyaman, dan menyegarkan setiap kali Anda berkunjung.</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon" />
+                  </div>
+
+                  <h3 class="title-2 card-title">Ahli Masakan Nusantara</h3>
+
+                  <p class="label-1 card-text">Hidangan disiapkan oleh para ahli yang memahami cita rasa khas dari berbagai daerah di Indonesia.</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon" />
+                  </div>
+
+                  <h3 class="title-2 card-title">Acara & Pesta</h3>
+
+                  <p class="label-1 card-text">Kami siap melayani berbagai acara, dari pertemuan pribadi hingga pesta besar dengan pelayanan terbaik.</p>
+                </div>
+              </li>
+            </ul>
+
+            <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape" class="shape shape-1" />
+
+            <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape shape-2" />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg')">
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo kedai nusantara.png" width="160" height="50" loading="lazy" alt="grilli home" />
+            </a>
+
+            <address class="body-4">Jl. Nangka RT 01 RW 11 Kepuharjo, Lumajang, Jawa Timur</address>
+
+            <a href="#" class="body-4 contact-link">kedainusantara@gmail.com</a>
+
+            <a href="tel:+88123123456" class="body-4 contact-link">Permintaan Pemesanan : +62-8123-4567</a>
+
+            <p class="body-4">Buka Setiap Hari: 07.30 - 22.00 WIB</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Beranda</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menu</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Tentang Kami</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+            </li> -->
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">TikTok</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Google Maps</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2025 Kedai Nusantara. All Rights Reserved <br />
+            Dibuat dengan ❤ oleh <a href="#" class="link">Kelompok 2 (6ITB1)</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
