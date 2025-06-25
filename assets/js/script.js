@@ -170,7 +170,7 @@ document.querySelector('.reservation-form form').addEventListener('submit', func
   const message = document.querySelector('textarea[name="message"]').value;
 
   // Format pesan WhatsApp
-  const whatsappMessage = `Halo, saya ingin melakukan reservasi:\n\nNama: ${name}\nNo. Telp: ${phone}\nJumlah Orang: ${person.replace('-', ' ')}\nTanggal: ${date}\nJam: ${time}\nPesan: ${message}`;
+  const whatsappMessage = `Halo, saya ingin melakukan reservasi:\n\nNama: ${name}\nNo. Telp: ${phone}\nJumlah Orang: ${person}\nTanggal: ${date}\nJam: ${time}\nPesan: ${message}`;
 
   // Ganti nomor WhatsApp tujuan di bawah ini (tanpa plus dan spasi)
   const phoneNumber = '6285706058586';
